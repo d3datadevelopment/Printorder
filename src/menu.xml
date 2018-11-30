@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="d3mxd3modules">
+        <MAINMENU id="d3mxprintorders">
+            <SUBMENU id="d3mxprintorders_settings" cl="d3_printorder_main" list="d3_printorder_admin_list">
+                <TAB id="d3tbclprintorders_main" cl="d3_printorder_settings" disableForDemoShop="1"/>
+                <TAB id="d3tbcl_licence" cl="d3_printorder_support" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
