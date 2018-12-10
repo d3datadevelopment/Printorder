@@ -1,3 +1,7 @@
+4.0.0.1
+- Fehlende Datei in Doku
+- d3FileRegister vervollständigt
+
 4.0.0.0
 - Anpassung 6.x, Installation via Composer
 - Support für Mobile-Theme eingestellt

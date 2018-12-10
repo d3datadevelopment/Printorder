@@ -40,7 +40,7 @@ $aModule = array(
         'en' => 'n/a',
     ),
     'thumbnail'      => 'picture.png',
-    'version'        => '4.0.0.0',
+    'version'        => '4.0.0.1',
     'author'         => 'D&sup3; Data Development (Inh.: Thomas Dartsch)',
     'email'          => 'support@shopmodule.com',
     'url'            => 'http://www.oxidmodule.com/',
@@ -106,8 +106,21 @@ $aModule = array(
         'd3/printorder/Setup/InstallRoutine.php',
         'd3/printorder/IntelliSenseHelper.php',
 
+
+        'd3/printorder/Modules/Application/Model/d3_oxorder_printorder.php',
+        'd3/printorder/Modules/Application/Model/d3_oxorderarticle_printorder.php',
+        'd3/printorder/Modules/Core/d3_oxemail_printorder.php',
+
+        'd3/printorder/Application/Controller/Admin/adminList.php',
+        'd3/printorder/Application/Controller/Admin/main.php',
+        'd3/printorder/Application/Controller/Admin/settings.php',
+        'd3/printorder/Application/Controller/Admin/support.php',
+        'd3/printorder/Application/Controller/printorderPreview.php',
+        'd3/printorder/Application/Model/printOrder.php',
+
         'd3/printorder/Application/translations/de/d3orderprint_lang.php',
         'd3/printorder/Application/translations/en/d3orderprint_lang.php',
+
         'd3/printorder/Application/views/admin/de/d3orderprint_lang.php',
         'd3/printorder/Application/views/admin/de/module_options.php',
         'd3/printorder/Application/views/admin/en/d3orderprint_lang.php',
