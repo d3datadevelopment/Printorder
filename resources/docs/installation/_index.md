@@ -3,7 +3,7 @@ title: Installation / Update / Deinstallation
 ---
 
 * [Anforderungen](installation/010_Anforderungen/010_Systemanforderungen.md)
-* [Neuinstallation](installation/020_Neuinstallation/010_Paketquelle_hinzufuegen.md)
+* [Neuinstallation](installation/020_Neuinstallation/005_Vorbereitung.md)
 * [Update](installation/030_Update/010_Modul_deaktivieren.md)
 * [Deinstallation](installation/060_Deinstallation/010_Modulerweiterungen_deaktivieren_und_entfernen.md)
 

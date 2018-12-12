@@ -1,9 +1,9 @@
 {
-    "title": "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbest&auml;tigung drucken",
-    "moduleversion": "4.0.0.1",
+    "title": "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbestätigung drucken",
+    "moduleversion": "4.0.1.0",
     "titledesc": "für den Oxid eShop",
     "author": "D³ Data Development",
-    "moduledate": "23.11.2018",
+    "moduledate": "12.12.2018",
     "editors": "SK/MG",
     "tagline": "",
     "image": "",
@@ -65,8 +65,8 @@
         }
     },
     "variables": {
-        "modulename"    : "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbest&auml;tigung drucken",
-        "menutitle"     : "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbest&auml;tigung drucken",
+        "modulename"    : "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbestätigung drucken",
+        "menutitle"     : "<i class='fab fa-d3 d3fa-color-blue'></i> Bestellbestätigung drucken",
         "modulefolder"  : "printorder",
         "modcfgident"   : "d3printorder",
         "composerident" : "d3/printorder"

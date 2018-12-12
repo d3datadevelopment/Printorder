@@ -3,7 +3,7 @@
 $sLangName = "English";
 
 $aLang = array(
-    'charset'                    => 'ISO-8859-15',
+    'charset'                    => 'UTF-8',
     'D3_ORDERPRINT_NOFILE_ERROR' => 'File-error. Please contact the administration of the shop.',
     'D3_ORDERPRINT_PRINT'        => 'print order confirmation',
     'D3_ORDERPRINT_HEADER'       => 'order confirmation',

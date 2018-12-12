@@ -7,10 +7,7 @@ title: Systemanforderungen
 * PHP Decoder
     * installierter ionCube Loader
 * Shopversionen / -editionen
-    * OXID eShop Professional Edition in Compilation Version 
-        * 6.0.x
-        * 6.1.x
-    * oder OXID eShop Enterprise Edition in Compilation Version 
+    * OXID eShop Community Edition (CE), Professional Edition (PE) oder Enterprise Edition (EE) in Compilation Version 
         * 6.0.x
         * 6.1.x
 * D3 Modul-Connector ([kostenfrei bei D3 erhältlich](https://www.oxidmodule.com/connector/)) ab Version 5.1.0.0 

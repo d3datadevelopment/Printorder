@@ -12,8 +12,8 @@
  * @link          http://www.oxidmodule.com
  */
 
+use D3\ModCfg\Application\Model\d3utils;
 use D3\Printorder\Setup as ModuleSetup;
-use OxidEsales\Eshop\Application\Controller as OxidController;
 use OxidEsales\Eshop\Application\Model as OxidModel;
 use OxidEsales\Eshop\Core as OxidCore;
 
@@ -22,7 +22,7 @@ use OxidEsales\Eshop\Core as OxidCore;
  * Metadata version
  */
 $sMetadataVersion = '2.0';
-$sD3Logo          = (class_exists(d3utils::class) ? d3utils::getInstance()->getD3Logo() : 'D&sup3;');
+$sD3Logo          = (class_exists( d3utils::class) ? d3utils::getInstance()->getD3Logo() : 'D&sup3;');
 $sModuleId = 'd3printorder';
 
 /**
@@ -40,7 +40,7 @@ $aModule = array(
         'en' => 'n/a',
     ),
     'thumbnail'      => 'picture.png',
-    'version'        => '4.0.0.1',
+    'version'        => '4.0.1.0',
     'author'         => 'D&sup3; Data Development (Inh.: Thomas Dartsch)',
     'email'          => 'support@shopmodule.com',
     'url'            => 'http://www.oxidmodule.com/',
@@ -63,7 +63,7 @@ $aModule = array(
         'settingsprintorder.tpl'                    => 'd3/printorder/Application/views/admin/tpl/settingsprintorder.tpl',
         'email_order_cust_print.tpl'                => 'd3/printorder/Application/views/tpl/email_order_cust_print.tpl',
 
-        // themeabhängige TPL
+        // themeabhÃ¤ngige TPL
         'd3printorder_azure_page_account_order.tpl' => 'd3/printorder/Application/views/azure/tpl/d3printorder_account_order.tpl',
         'd3printorder_flow_page_account_order.tpl'  => 'd3/printorder/Application/views/flow/tpl/d3printorder_account_order.tpl',
     ),
@@ -85,6 +85,11 @@ $aModule = array(
             'template' => 'page/checkout/thankyou.tpl',
             'block'    => 'checkout_thankyou_proceed',
             'file'     => 'Application/views/blocks/d3printorder_page_checkout_thankyou.tpl'
+        ),
+        array(
+            'template' => 'order_overview.tpl',
+            'block'    => 'admin_order_overview_customer_number',
+            'file'     => 'Application/views/blocks/d3printorder_order_overview.tpl'
         ),
     ),
     'settings' => array(
@@ -127,9 +132,6 @@ $aModule = array(
         'd3/printorder/Application/views/admin/en/module_options.php',
 
         'd3/printorder/Application/views/admin/tpl/settingsprintorder.tpl',
-        'd3/printorder/Application/views/blocks/account_order_history.tpl',
-        'd3/printorder/Application/views/blocks/account_order_history_cart_items.tpl',
-        'd3/printorder/Application/views/blocks/d3printorder_page_checkout_thankyou.tpl',
         'd3/printorder/Application/views/tpl/email_order_cust_print.tpl',
         'd3/printorder/Application/views/azure/tpl/d3printorder_account_order.tpl',
         'd3/printorder/Application/views/flow/tpl/d3printorder_account_order.tpl'

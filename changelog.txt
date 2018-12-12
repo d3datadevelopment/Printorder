@@ -1,3 +1,9 @@
+4.0.1.0
+- Template-Block im Popup eingefügt, um spezifische Inhalte ergänzen zu können
+- Aufruf-Link wird zusätzlich im Backend angezeigt 
+- Encodings auf UTF-8 gestellt
+- fehlenden Namespace nachgetragen
+
 4.0.0.1
 - Fehlende Datei in Doku
 - d3FileRegister vervollständigt
