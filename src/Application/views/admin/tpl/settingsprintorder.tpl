@@ -22,20 +22,6 @@
         </div>
     [{/if}]
     <style type="text/css">
-        .d3modcfg_btn .d3printorderButton{
-            background   : none;
-            border       : none;
-            color        : white;
-            padding-left : 30px;
-        }
-
-        .d3modcfg_btn.icon .d3printorderButton i{
-            position : absolute;
-            left     : 5px;
-            width    : 20px;
-            height   : 20px;
-        }
-
         .buttons .d3modcfg_btn{
             width : 220px;
         }
@@ -80,13 +66,12 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <span class="d3modcfg_btn icon d3color-green status_ok">
-                                        <button class="d3printorderButton" type="submit" name="save">
-                                            <i class="fa fa-check-circle fa-17x fa-inverse"></i>
-                                            <span style="margin-left:4px;"></span>
+                                    <div class="d3modcfg_btn icon d3color-green">
+                                        <button type="submit" name="save">
+                                            <i class="fas fa-check-circle fa-inverse"></i>
                                             [{oxmultilang ident="D3_ORDERPRINT_GENERAL_SAVE"}]
                                         </button>
-                                    </span>
+                                    </div>
                                 </td>
                             </tr>
                         </table>
@@ -107,13 +92,12 @@
                                             <input type="hidden" name="oxid" value="[{$oxid}]">
                                             <input type="hidden" name="editval[d3_cfg_mod__oxid]" value="[{$oxid}]">
                                         </div>
-                                        <span class="d3modcfg_btn icon action_refresh">
-                                            <button class="d3printorderButton" type="submit" name="save" class="">
-                                                <i class="fa fa-refresh fa-17x fa-d3color-white"></i>
+                                        <div class="d3modcfg_btn icon action_refresh">
+                                            <button type="submit" name="save" class="">
+                                                <i class="fas fa-sync"></i>
                                                 [{oxmultilang ident="D3_ORDERPRINT_RECACHING_BTN"}]
                                             </button>
-                                            <span style="margin-left:4px;"></span>
-                                        </span>
+                                        </div>
                                         [{oxinputhelp ident="D3_ORDERPRINT_RECACHING_HELP"}]
                                     </form>
                                 [{/if}]
@@ -122,7 +106,7 @@
                         [{if $blOldPrintorders}]
                             <tr>
                                 <td>
-                                    <!-- altes Verzeichnis vorhanden -> Button für Aufräumaktion anzeigen -->
+                                    <!-- altes Verzeichnis vorhanden -> Button fÃ¼r AufrÃ¤umaktion anzeigen -->
                                     <form name="myedit" id="myedit" action="[{$oViewConf->getSelfLink()}]"
                                           method="post">
                                         <div>
@@ -133,8 +117,8 @@
                                             <input type="hidden" name="editval[d3_cfg_mod__oxid]" value="[{$oxid}]">
                                         </div>
                                         <span class="d3modcfg_btn icon d3color-green">
-                                            <button class="d3printorderButton" type="submit" name="save">
-                                                <i class="fa fa-check-circle fa-inverse"></i>
+                                            <button type="submit" name="save">
+                                                <i class="fas fa-check-circle fa-inverse"></i>
                                                 [{oxmultilang ident="D3_ORDERPRINT_CLEAR_OLD_DATA"}]
                                             </button>
                                             <span style="background-position: 0 -300px; margin-left:4px;"></span>
@@ -159,10 +143,9 @@
             <input type="hidden" name="editval[d3_cfg_mod__oxid]" value="[{$oxid}]">
         </div>
         [{include file="d3_cfg_mod_active.tpl"}]
-        <span class="d3modcfg_btn icon d3color-green status_ok">
-            <button class="d3printorderButton" type="submit" name="save">
-                <i class="fa fa-check-circle fa-17x fa-inverse"></i>
-                <span style="margin-left:4px;"></span>
+        <span class="d3modcfg_btn icon d3color-green">
+            <button type="submit" name="save">
+                <i class="fas fa-check-circle fa-inverse"></i>
                 [{oxmultilang ident="D3_ORDERPRINT_GENERAL_SAVE"}]
             </button>
         </span>
