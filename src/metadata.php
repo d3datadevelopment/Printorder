@@ -40,7 +40,7 @@ $aModule = array(
         'en' => 'n/a',
     ),
     'thumbnail'      => 'picture.png',
-    'version'        => '4.0.1.0',
+    'version'        => '4.0.1.1',
     'author'         => 'D&sup3; Data Development (Inh.: Thomas Dartsch)',
     'email'          => 'support@shopmodule.com',
     'url'            => 'http://www.oxidmodule.com/',

@@ -1,3 +1,6 @@
+4.0.1.1
+- fehlendes Template ergänzt
+
 4.0.1.0
 - Template-Block im Popup eingefügt, um spezifische Inhalte ergänzen zu können
 - Aufruf-Link wird zusätzlich im Backend angezeigt 
