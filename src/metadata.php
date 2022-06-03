@@ -21,7 +21,7 @@ use OxidEsales\Eshop\Core as OxidCore;
 /**
  * Metadata version
  */
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 $sD3Logo          = (class_exists( d3utils::class) ? d3utils::getInstance()->getD3Logo() : 'D&sup3;');
 $sModuleId = 'd3printorder';
 
@@ -105,38 +105,5 @@ $aModule = array(
             'type'      => 'str',
             'value'     => ''
         ),
-    ),
-    'd3FileRegister' => array(
-        'd3/printorder/metadata.php',
-        'd3/printorder/Setup/InstallRoutine.php',
-        'd3/printorder/IntelliSenseHelper.php',
-
-
-        'd3/printorder/Modules/Application/Model/d3_oxorder_printorder.php',
-        'd3/printorder/Modules/Application/Model/d3_oxorderarticle_printorder.php',
-        'd3/printorder/Modules/Core/d3_oxemail_printorder.php',
-
-        'd3/printorder/Application/Controller/Admin/adminList.php',
-        'd3/printorder/Application/Controller/Admin/main.php',
-        'd3/printorder/Application/Controller/Admin/settings.php',
-        'd3/printorder/Application/Controller/Admin/support.php',
-        'd3/printorder/Application/Controller/printorderPreview.php',
-        'd3/printorder/Application/Model/printOrder.php',
-
-        'd3/printorder/Application/translations/de/d3orderprint_lang.php',
-        'd3/printorder/Application/translations/en/d3orderprint_lang.php',
-
-        'd3/printorder/Application/views/admin/de/d3orderprint_lang.php',
-        'd3/printorder/Application/views/admin/de/module_options.php',
-        'd3/printorder/Application/views/admin/en/d3orderprint_lang.php',
-        'd3/printorder/Application/views/admin/en/module_options.php',
-
-        'd3/printorder/Application/views/admin/tpl/settingsprintorder.tpl',
-        'd3/printorder/Application/views/tpl/email_order_cust_print.tpl',
-        'd3/printorder/Application/views/azure/tpl/d3printorder_account_order.tpl',
-        'd3/printorder/Application/views/flow/tpl/d3printorder_account_order.tpl'
-    ),
-    'd3SetupClasses' => array(
-        ModuleSetup\InstallRoutine::class,
-    ),
+    )
 );
