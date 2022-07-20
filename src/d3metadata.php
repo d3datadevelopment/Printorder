@@ -49,6 +49,6 @@ $aModule = [
     'd3SetupClasses'    => [
         ModuleSetup\d3_cfg_mod_update::class,
         ModuleSetup\d3log_update::class,
-        ModuleSetup\InstallRoutine::class
+        D3\Printorder\Setup\InstallRoutine::class
     ]
 ];
