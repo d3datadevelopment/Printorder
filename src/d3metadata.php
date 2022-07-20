@@ -13,7 +13,6 @@
  * @author    D3 Data Development - Daniel Seifert <support@shopmodule.com>
  * @link      http://www.oxidmodule.com
  */
-use D3\ModCfg\setup as ModuleSetup;
 $aModule = [
     'd3FileRegister'    => [
         'd3/printorder/metadata.php',
@@ -47,8 +46,6 @@ $aModule = [
         'd3/printorder/Application/views/flow/tpl/d3printorder_account_order.tpl'
     ],
     'd3SetupClasses'    => [
-        ModuleSetup\d3_cfg_mod_update::class,
-        ModuleSetup\d3log_update::class,
         D3\Printorder\Setup\InstallRoutine::class
     ]
 ];
