@@ -10,5 +10,5 @@ title: Konfiguration einstellen
 
 * Pfad für die Ablage der Bestellbestätigungen hinterlegen:
 
-    [ D3 Module ] -> [ {$menutitle} ] -> [ Einstellungen ] -> [ Stamm]
+    [ (D3) Module ] -> [ {$menutitle} ] -> [ Einstellungen ] -> [ Stamm]
      

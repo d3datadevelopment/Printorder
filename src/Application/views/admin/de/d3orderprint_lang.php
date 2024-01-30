@@ -42,5 +42,6 @@ $aLang = array(
         . '<br><br>Innerhalb dieses Update-Schrittes, ' //
         . 'werden die bisher generierten Bestellbestätigungen, automatisch in das neue Verzeichnis verschoben.',
     'D3_ORDERPRINT_PRINT'        => 'Bestellbestätigung drucken',
-    'D3_ORDERPRINT_LINK'         => 'Klicken Sie hier, um Ihre Bestellbestätigung ausdrucken',
+    'D3_ORDERPRINT_CLOSE'        => 'Fenster schließen',
+    'D3_ORDERPRINT_LINK'         => 'Klicken Sie hier, um Ihre Bestellbestätigung auszudrucken',
 );

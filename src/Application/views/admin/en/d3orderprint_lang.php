@@ -34,5 +34,6 @@ $aLang = array(
         . 'The new Folder is: %s' //
         . '<br><br> Existing orderprint-files are moved automatically, to the new folder, in this updatestep',
     'D3_ORDERPRINT_PRINT'        => 'print order confirmation',
+    'D3_ORDERPRINT_CLOSE'        => 'close window',
     'D3_ORDERPRINT_LINK'         => 'Click here to print the order confirmation',
 );

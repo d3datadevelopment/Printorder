@@ -21,7 +21,7 @@ $sD3Help_mappedTo = '<p>Our modules are prepared for the default themes of the O
     'Is it a completely individual Theme, please enter the parent theme id '.
     'to the OXID default theme that is closest to it.</p>'.
     '<p>Read further informations in our <a '.
-    'href="http://faq.oxidmodule.com/Modulinstallation/Modulanpassungen/Template-Bloecke-dem-eigenen-Theme-zuordnen.html" target="FAQ">FAQ</a>.</p>';
+    'href="https://faq.d3data.de/allgemein/template-bloecke-dem-eigenen-theme-zuordnen/" target="FAQ">FAQ</a>.</p>';
 
 $aLang = array(
     'charset'                                 => 'UTF-8',

@@ -2,6 +2,24 @@
 title: Changelog
 ---
 
+All notable changes to this project will be documented in this file.
+
+## 5.0.1.0
+### Added
+- installierbar in PHP 8.2
+
+## 5.0.0.0
+### Added
+- installierbar in OXID 6.3.x bis 6.5.x
+- Unterstützung für Wave-Theme
+
+### Changed
+- Dokumentation angepasst
+- Aktionselemente der Maildarstellung formatiert
+
+### Fixed
+- Schreibfehler korrigiert
+
 ## 4.0.1.1
 - fehlendes Template ergänzt
 
